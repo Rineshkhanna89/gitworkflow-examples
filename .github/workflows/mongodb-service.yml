@@ -46,7 +46,7 @@ jobs:
       mongodb:
         image: mongo
         ports:
-        # will assign a random free host port
+        # will assign a random free host port for tcp
         - 27017/tcp
 
     steps:
